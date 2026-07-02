@@ -16,7 +16,7 @@ The MacAdmins Slack is bigger than (and unaffiliated with) just our workshop or 
 
 ## The Essentials
 
-For the workshop, you’ll need a Mac with a few apps pre-installed. We will require a Mac with macOS 15 or macOS 26, because macOS ships with jq in macOS 15 and later. (jq is one of the built-in binaries you’ll learn about during the workshop)
+For the workshop, you’ll need a Mac with a few apps pre-installed. We will require a Mac with macOS 15 or macOS 26, because macOS ships with `jq` in macOS 15 and later. (`jq` is one of the built-in binaries you’ll learn about during the workshop)
 
 ## Do I need a spare Mac?
 
