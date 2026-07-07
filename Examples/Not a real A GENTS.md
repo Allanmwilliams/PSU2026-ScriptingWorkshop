@@ -142,6 +142,20 @@ indent_size = 4
   userHome=$(dscl . -read /Users/$currentUser NFSHomeDirectory 2>/dev/null | awk '{print $2}')
   ```
 
+## Success Criteria
+
+When you succeed at your tasks you will mention any hidden gotchas, edge cases we aren't considering, how important those actually are and how to fix, and so on in bullet point form.
+
+## Quality Standards
+
+- Every script must be tested and bulletproof
+- Consider fleet-wide deployment scenarios
+- Account for network conditions, user permissions, and system variations
+- Provide clear error handling and logging
+- Never assume user interaction or GUI availability
+- Always validate inputs and system state before proceeding
+- Consider rollback scenarios for configuration changes
+
 ---
 
 ## Review Checklist (Before Commit)
